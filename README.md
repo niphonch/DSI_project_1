@@ -9,19 +9,17 @@ The ACT (American College Testing) is one of the highest stake standardized test
 
 |Feature|Type|Dataset|Description|
 |:--------|:------|:---------|:-------------|
-|state|object|df/df_act/df_add|Sates in USA| 
-|act19_participation|float|df/df_act| Students participation rate of 2019 ACT| 
-|act19_composite|float|df/df_actT|2019 ACT composite score| 
-|act18_participation|float|df/df_act| Students participation rate of 2018 ACT| 
-|act18_composite|float|df/df_act|2019 ACT composite score| 
-|funding_level|object|df/df_add|Funding level: determined by dividing state and local revenue by student enrollment. | 
-|funding_dist |object|df/df_add|Funding distribution: do states provide more or less funding to
-districts as the poverty rate increases?| 
-|funding_effort|object|df/df_add| Funding effort: measured as total state and local revenue (including capital outlay and debt service.
-excluding all federal funds) divided by the state’s gross domestic product (GDP).| 
-|k12_spend |float|df/df_add| Public K-12 spending per pupil per year| 
-|ranking |float|df/df_add| Overall education ranking| 
-|college_ready_score|float|df/df_add|College readiness ranking| 
+|state|object|total_act_18_19|Sates in USA| 
+|act19_participation|float|total_act_18_19| Students participation rate of 2019 ACT| 
+|act19_composite|float|total_act_18_19|2019 ACT composite score| 
+|act18_participation|float|total_act_18_19| Students participation rate of 2018 ACT| 
+|act18_composite|float|total_act_18_19|2019 ACT composite score| 
+|funding_level|object|total_act_18_19|Funding level: the cost-adjusted, per-pupil revenue from state and local sources | 
+|funding_dist |object|total_act_18_19|Funding distribution: the extent to which additional funds are distributed to school districts with high levels of student poverty| 
+|funding_effort|object|total_act_18_19| Funding effort: the level of investment in K-12 public education as a percentage of state wealth (GDP) allocated to maintain and support the state school system.| 
+|k12_spend |float|total_act_18_19| Public K-12 spending per pupil per year| 
+|ranking |float|total_act_18_19| Overall education ranking| 
+|college_ready_score|float|total_act_18_19|College readiness ranking| 
 
 
 ### Analysis
@@ -36,7 +34,7 @@ excluding all federal funds) divided by the state’s gross domestic product (GD
 
 ### Conclusion and recommendation
 
-      The aims of this study is to analyze the relationships between ACT tests scores and state educational funding. The results show that the public K-12 spending per pupil are moderately correlated with both 2018 and 2019 ACT composite scores, meaning the higher States allocate their budget to support K-12 education, the higher average ACT scores. Furthermore, the States which have higher grade in funding distribution have higher average ACT scores, while the other aspects of funding (funding level and funding effort) tend to produce relatively small to no difference in average ACT scores.
+   The aims of this study is to analyze the relationships between ACT tests scores and state educational funding. The results show that the public K-12 spending per pupil are moderately correlated with both 2018 and 2019 ACT composite scores, meaning the higher States allocate their budget to support K-12 education, the higher average ACT scores. Furthermore, the States which have higher grade in funding distribution have higher average ACT scores, while the other aspects of funding (funding level and funding effort) tend to produce relatively small to no difference in average ACT scores.
      Thus, we recommend the States and school administrators who are responsible for school budget planning to 
 1.	Increase budget spending per pupil. 
 2.	Strategically allocate spending to help low-achieving students and students who are in poverty.
